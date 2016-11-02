@@ -513,6 +513,12 @@ img[width],img[height] {
     max-width: none
 }
 
+figcaption p {
+    font-style: italic;
+    font-size: 18px;
+    text-align: center;
+}
+
 figure>img {
     display: block
 }
