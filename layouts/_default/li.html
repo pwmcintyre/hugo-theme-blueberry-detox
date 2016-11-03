@@ -4,9 +4,11 @@
         <p class="post-time"><time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">{{ .Date.Format "January 2, 2006" }}</time></p>
     </header>
     
-    <section class="post-excerpt">
-        <p>{{ .Summary }}</p>
-    </section>
+    <a href="{{ .Permalink }}">
+        <section class="post-excerpt">
+            <p>{{ .Summary }}</p>
+        </section>
+    </a>
 
     <footer class="post-footer">
         <span>
