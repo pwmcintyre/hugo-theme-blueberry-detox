@@ -784,7 +784,14 @@ hr {
 .blog-title {
     text-transform: uppercase;
     letter-spacing: 6px;
-    font-size: 75px
+    font-size: 75px;
+
+    border-bottom: 1px solid #333;
+    width: auto;
+    margin: 0 auto;
+    display: inline-block;
+    margin-bottom: 25px;
+    padding-bottom: 20px;
 }
 
 .blog-description {
