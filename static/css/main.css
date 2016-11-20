@@ -327,23 +327,19 @@ a {
     text-decoration: none;
     line-height: inherit;
     outline: 0;
-    -webkit-transition: color .1s ease-out;
-    -webkit-transition-property: color;
+    -webkit-transition: padding-bottom .1s ease-out;
+    -webkit-transition-property: padding-bottom;
     -webkit-transition-duration: .1s;
     -webkit-transition-timing-function: ease-out;
     -webkit-transition-delay: initial;
-    -moz-transition: color .1s ease-out;
-    -o-transition: color .1s ease-out;
-    -ms-transition: color .1s ease-out;
-    transition: color .1s ease-out;
-    transition-property: color;
+    -moz-transition: padding-bottom .1s ease-out;
+    -o-transition: padding-bottom .1s ease-out;
+    -ms-transition: padding-bottom .1s ease-out;
+    transition: padding-bottom .1s ease-out;
+    transition-property: padding-bottom;
     transition-duration: .1s;
     transition-timing-function: ease-out;
-    transition-delay: initial
-}
-
-a:hover {
-    color: #b3b3b3
+    transition-delay: initial;
 }
 
 p a,p a:visited {
@@ -862,15 +858,15 @@ article.li .post-excerpt {
     }
 }
 
-.post-content a,#site-footer a {
+.post-content a {
     color: #333;
     text-decoration: none;
-    font-weight: bold
+    padding-bottom: 0px;
+    border-bottom: 1px solid black;
 }
 
-.post-content a:hover,#site-footer a:hover {
-    color: #e6e6e6;
-    border-bottom: 1px solid
+.post-content a:hover {
+    padding-bottom: 3px;
 }
 
 .m-logo {
@@ -974,4 +970,8 @@ article.li .post-excerpt {
 #site-footer {
     text-align: center;
     height: 10em
+}
+
+#site-footer a {
+    text-decoration: underline;
 }
