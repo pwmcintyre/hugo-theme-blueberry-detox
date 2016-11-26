@@ -396,7 +396,7 @@ blockquote {
 
 blockquote,q {
     quotes: none;
-    font-size: 125%
+    /*font-size: 125%*/
 }
 
 blockquote>p {
