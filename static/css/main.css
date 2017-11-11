@@ -239,7 +239,7 @@ abbr,acronym,blockquote,code,dir,kbd,listing,plaintext,q,samp,tt,var,xmp {
 }
 
 h1,h2,h3,h4,h5,h6 {
-    font-family: "Montserrat";
+    /* font-family: "Montserrat"; */
     font-weight: 700;
     line-height: 1;
     margin-top: 0;
@@ -259,14 +259,13 @@ h1 {
 }
 
 h2 {
-    font-size: 36px;
-    font-size: 2rem;
-    margin-bottom: 0.61875em
+    font-size: 1.1rem;
+    margin-bottom: 0.61875em;
+    text-transform: uppercase;
 }
 
 @media (max-width: 550px) {
     h2 {
-        font-size:36px
     }
 }
 
@@ -416,8 +415,8 @@ cite {
 html {
     margin: 0;
     padding: 0;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 120%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 100%;
     line-height: 1.65;
     font-weight: normal;
     overflow-y: scroll;
@@ -770,6 +769,10 @@ hr {
     margin-bottom: 9em
 }
 
+#site-header h1 {
+    font-family: "Montserrat";
+}
+
 @media (max-width: 800px) {
     #site-header {
         padding-top:4em !important;
@@ -828,7 +831,8 @@ article.li .post-excerpt {
 }
 
 .post-title {
-    margin-bottom: 30px
+    margin-bottom: 30px;
+    letter-spacing: 3px;
 }
 
 .post-time {
