@@ -247,74 +247,27 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 h1 {
-    font-size: 48px;
-    font-size: 2.6667rem;
-    margin-bottom: 0.495em
-}
-
-@media (max-width: 550px) {
-    h1 {
-        font-size:48px
-    }
+    font-size: 2.2rem;
 }
 
 h2 {
-    font-size: 1.1rem;
-    margin-bottom: 0.61875em;
-    text-transform: uppercase;
-}
-
-@media (max-width: 550px) {
-    h2 {
-    }
+    font-size: 2rem;
 }
 
 h3 {
-    font-size: 24px;
-    font-size: 1.3333333333333333rem;
-    margin-bottom: 0.825em
-}
-
-@media (max-width: 550px) {
-    h3 {
-        font-size:24px
-    }
+    font-size: 1.8rem;
 }
 
 h4 {
-    font-size: 24px;
-    font-size: 1.3333333333333333rem;
-    margin-bottom: 1.2375em
-}
-
-@media (max-width: 550px) {
-    h4 {
-        font-size:22px
-    }
+    font-size: 1.6rem;
 }
 
 h5 {
-    font-size: 21px;
     font-size: 1.16667rem;
-    margin-bottom: 1.4142857142857141em
-}
-
-@media (max-width: 550px) {
-    h5 {
-        font-size:19px
-    }
 }
 
 h6 {
-    font-size: 18px;
     font-size: 1rem;
-    margin-bottom: 1.65em
-}
-
-@media (max-width: 550px) {
-    h6 {
-        font-size:15px
-    }
 }
 
 p {
@@ -833,6 +786,8 @@ article.li .post-excerpt {
 .post-title {
     margin-bottom: 30px;
     letter-spacing: 3px;
+    text-transform: uppercase;
+    font-size: 1.6rem;
 }
 
 .post-time {
