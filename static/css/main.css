@@ -472,7 +472,7 @@ figure>img {
 
 audio,canvas,img,video {
     vertical-align: middle;
-    margin: 0 auto;
+    margin: 20px auto;
 }
 
 .btn,button,input[type="submit"],input[type="reset"],input[type="button"] {
